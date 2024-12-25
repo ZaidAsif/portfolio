@@ -3,14 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #121212; /* Midnight Blue */
+  --foreground: #ffffff; /* White */
+  --primary: #0a84ff;    /* Bright Blue for links/buttons */
+  --accent: #ffd700;     /* Gold */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #0a84ff; /* Can keep the same or choose a darker accent */
+    --accent: #ffd700;  /* Gold works well for both themes */
   }
 }
 

@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss";         
 
 export default {
   content: [
@@ -9,10 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        primary: 'var(--primary)',
+        accent: 'var(--accent)',
+      },
+      fontFamily: {
+        heading: ['Playfair Display', 'serif'], // For headings
+        body: ['Roboto', 'sans-serif'],        // For body text
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-motion')],
 } satisfies Config;
