@@ -7,6 +7,7 @@
   --foreground: #ffffff; /* White */
   --primary: #0a84ff;    /* Bright Blue for links/buttons */
   --accent: #ffd700;     /* Gold */
+  --extra: #52eedf;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +16,7 @@
     --foreground: #ededed;
     --primary: #0a84ff; /* Can keep the same or choose a darker accent */
     --accent: #ffd700;  /* Gold works well for both themes */
+    --extra: #52eedf;
   }
 }
 
