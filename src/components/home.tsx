@@ -109,7 +109,7 @@ export default function HomeSection() {
         >
           Zaid Asif
         </h2>
-                <p className={`text-2xl md:text-4xl mt-4`}>
+                <p className={`text-2xl md:text-4xl mt-4 lg:text-5xl`}>
                     <span className={``}>A </span>
                     <span>
                     <Typewriter
@@ -136,13 +136,13 @@ export default function HomeSection() {
             {/* Social Media Links */}
             <div className="flex gap-6 mt-8">
                 <a href="https://github.com/zaidAsif" target="_blank" rel="noopener noreferrer" className="hover:text-accent">
-                    <FaGithub className="text-3xl" />
+                    <FaGithub className="text-3xl md:text-4xl lg:text-5xl hover:text-accent hover:shadow-[0px_0px_8px_1px_rgba(255,215,0,.6)] rounded-full" />
                 </a>
                 <a href="https://www.linkedin.com/in/mrzaidasif/" target="_blank" rel="noopener noreferrer" className="hover:text-accent">
-                    <IoLogoLinkedin className="text-3xl" />
+                    <IoLogoLinkedin className="text-3xl md:text-4xl lg:text-5xl" />
                 </a>
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent">
-                    <FaFacebook className="text-3xl" />
+                    <FaFacebook className="text-3xl md:text-4xl lg:text-5xl hover:text-accent hover:shadow-[0px_0px_8px_1px_rgba(255,215,0,.6)] rounded-full" />
                 </a>
             </div>
             </div>
