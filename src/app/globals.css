@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #121212; /* Midnight Blue */
+  --background: #0a053b; /* Midnight Blue */
   --foreground: #ffffff; /* White */
   --primary: #0a84ff;    /* Bright Blue for links/buttons */
   --accent: #ffd700;     /* Gold */

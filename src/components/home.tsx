@@ -21,8 +21,8 @@ const playfair = Playfair_Display({
 
 export default function HomeSection() {
   return (
-    <header className="z-10 bg-gradient-to-b from-background to-primary text-foreground">
-      <div className={`flex flex-col items-center justify-center h-screen w-full gap-8 motion-preset-slide-down motion-delay-2000`}>
+    <header id='home' className="z-10 w-full h-full bg-gradient-to-b from-background to-primary text-foreground">
+      <div className={`flex flex-col items-center justify-center h-screen w-full gap-8 motion-preset-slide-down motion-delay-2000 motion-duration-4000`}>
         <div className="text-center px-6 md:px-16">
           <h1
             className={`text-5xl md:text-7xl font-bold ${roboto.className}`}
