@@ -30,7 +30,7 @@ export default function Navbar() {
                 </button>
             </div>
  
-            <nav className={`z-60 fixed sm:top-12 sm:left-3 md:top-4 md:left-3 top-12 left-4 h-screen w-16 flex flex-col items-center py-8 transition-transform duration-700 ease-in-out md:translate-y-0 lg:translate-y-0 ${isOpen? "translate-y-0" : "translate-y-full"}`}>
+            <nav className={`z-50 fixed sm:top-12 sm:left-3 md:top-4 md:left-3 top-12 left-4 h-screen w-16 flex flex-col items-center py-8 transition-transform duration-700 ease-in-out md:translate-y-0 lg:translate-y-0 ${isOpen? "translate-y-0" : "translate-y-full"}`}>
 
                 <div className={`group relative flex items-center w-full mb-8`}>
                     <a className={`group`} href="#home">
