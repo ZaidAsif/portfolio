@@ -39,7 +39,7 @@ export default function AboutSection() {
                         <p style={{ color: '#71738e' }} className={`text-xl md:text-2xl text-center font-bold  ${roboto.className}`}>I am a young ambitious teen thriving for success in this field</p>
                         <div className="mt-4">
                             <blockquote className="text-lg font-semibold text-gray-200 italic border-l-4 border-teal-400 pl-4">
-                                “First, solve the problem. Then, write the code" – John Johnson
+                            &quot;First, solve the problem. Then, write the code&quot; – John Johnson
                             </blockquote>
                         </div>
                     </div>
@@ -134,7 +134,7 @@ export default function AboutSection() {
                     <div className="bg-primary shadow-md p-6 rounded-lg flex-1 text-center md:text-right border border-[rgba(255,215,0,0.5)]">
                         <h4 className="text-xl font-semibold text-[#c8d6f6] mb-3">Full-Stack Development</h4>
                         <p className={`text-md md:text-lg ${merriweather.className}`}>
-                            Currently, I'm learning Backend <strong>Express.js</strong> and <strong>MongoDB</strong>, mastering full-stack development with the
+                            Currently, I&apos;m learning Backend <strong>Express.js</strong> and <strong>MongoDB</strong>, mastering full-stack development with the
                             <strong> MERN stack</strong>. My focus is building scalable, integrated web applications that solve real-world problems.
                         </p>
                     </div>
