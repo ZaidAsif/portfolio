@@ -25,7 +25,7 @@ export default function AboutSection() {
             <div className={`flex flex-col justify-around items-center gap-8`}>
             <div className="text-center mb-12">
                 <h2 className={`text-2xl font-semibold md:text-4xl lg:text-4xl ${poppins.className} text-[#00ffcc]`} style={{textShadow: '0 4px 10px rgb(58, 154, 209)'}}>
-                    About me.
+                About Me.
                 </h2>
                 <div className="mt-2 flex items-center justify-center gap-2">
                     <span className="h-1 bg-gray-600 w-16 md:w-20 lg:w-20"></span>

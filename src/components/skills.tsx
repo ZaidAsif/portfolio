@@ -1,8 +1,8 @@
 'use client';
 
-import { Inter, Lora } from "next/font/google";
+import { Inter, Lora, Poppins } from "next/font/google";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiFirebase, SiTypescript, SiExpress, SiMongodb  } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiFirebase, SiTypescript, SiExpress, SiMongodb, SiMui  } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
 const lora = Lora({
@@ -11,6 +11,11 @@ const lora = Lora({
 });
 
 const inter = Inter({
+    subsets: ['latin'],
+    weight: ['400', '600', '700'],
+});
+
+const poppins = Poppins({
     subsets: ['latin'],
     weight: ['400', '600', '700'],
 });
@@ -25,6 +30,7 @@ export default function SkillsSection() {
         { name: "Next.js", level: 85, icon: <SiNextdotjs className="text-gray-500 text-4xl" /> },
         { name: "Tailwind CSS", level: 85, icon: <SiTailwindcss className="text-teal-400 text-4xl" /> },
         { name: "Bootstrap", level: 75, icon: <FaBootstrap className="text-[#7e00ed] text-4xl" /> },
+        { name: "Material UI", level: 70, icon: <SiMui className="text-blue-600 text-4xl" /> },
         { name: "Firebase", level: 75, icon: <SiFirebase className="text-orange-500 text-4xl" /> },
         { name: "React Native", level: 70, icon: <TbBrandReactNative className="text-[#00d6f5] text-4xl" /> },
         { name: "Express JS", level: 65, icon: <SiExpress  className="text-green-400 text-4xl" /> },
@@ -33,8 +39,8 @@ export default function SkillsSection() {
 
     return (
         <section id="skills" className="w-full h-full px-8 py-16 bg-gradient-to-b from-[var(--background)] to-[rgba(10,5,59,0.9)] text-foreground">
-            <div className="text-center mb-12">
-                <h2 className="text-2xl font-semibold md:text-4xl lg:text-4xl ${poppins.className} text-[#00ffcc]" style={{textShadow: '0 4px 10px rgb(58, 154, 209)'}}>
+           <div className="text-center mb-12">
+                <h2 className={`text-2xl font-semibold md:text-4xl lg:text-4xl ${poppins.className} text-[#00ffcc]`} style={{textShadow: '0 4px 10px rgb(58, 154, 209)'}}>
                 My Skills.
                 </h2>
                 <div className="mt-2 flex items-center justify-center gap-2">
