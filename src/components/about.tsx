@@ -22,8 +22,18 @@ const poppins = Poppins({
 export default function AboutSection() {
     return (
         <section id="about" className="group flex-col mt-10 w-full h-full flex gap-12 px-12 py-10 md:px-24 md:py-16">
-            <div className={`flex flex-col justify-center align-center gap-8`}>
-                <h4
+            <div className={`flex flex-col justify-around items-center gap-8`}>
+            <div className="text-center mb-12">
+                <h2 className="text-2xl font-semibold md:text-4xl lg:text-4xl ${poppins.className} text-[#00ffcc]" style={{textShadow: '0 4px 10px rgb(58, 154, 209)'}}>
+                    About me.
+                </h2>
+                <div className="mt-2 flex items-center justify-center gap-2">
+                    <span className="h-1 bg-gray-600 w-16 md:w-20 lg:w-20"></span>
+                    <span className="h-1 bg-white w-10 md:w-16 lg:w-16"></span>
+                    <span className="h-1 bg-gray-600 w-16 md:w-20 lg:w-20"></span>
+                </div>
+            </div>
+                {/* <h4
                     className={`group text-left text-xl font-semibold md:text-2xl ${poppins.className}`}
                     style={{
                         color: '#00ffcc', textShadow: '0 4px 10px rgb(58, 154, 209)'
@@ -32,7 +42,7 @@ export default function AboutSection() {
                     About Me.
                     <span className='ml-6 md:ml-0 border-[1px] block box-content relative bottom-[17px] w-[56.7%] left-[38%] border-[#303c55] md:w-[20rem] md:w-3/5'></span>
 
-                </h4>
+                </h4> */}
                 <div className={`md:flex md:justify-around`}>
                     <div className={`gap-4 flex flex-col md:justify-evenly`}>
                         <h2 className={`text-2xl md:text-5xl text-center font-mono`}> <span className='text-red-300'>Web</span> & <span className='text-orange-300'>App</span> Developer</h2>
@@ -64,7 +74,7 @@ export default function AboutSection() {
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[rgb(111, 99, 223)] via-[rgba(54, 52, 52, 0.9)] to-[rgb(44, 37, 116)]"></div>
 
             <h3
-                className="text-4xl font-bold text-center mb-12 text-accent"
+                className="text-2xl md:text-4xl lg:text-4xl font-bold text-center mb-12 text-accent"
                 style={{ textShadow: "0 0 10px var(--accent), 0 0 20px var(--accent)" }}
             >
                 My Journey
@@ -75,7 +85,7 @@ export default function AboutSection() {
                     {/* Icon */}
                     <div className="relative flex flex-col items-center">
                         <div
-                            className="hover:motion-preset-spin motion-ease-spring-bounciest flex-shrink-0 p-5 rounded-full shadow-lg border-4 border-accent bg-[rgba(10,5,59,1)] text-accent"
+                            className="motion-preset-spin motion-duration-2000 motion-ease-spring-bouncy flex-shrink-0 p-5 rounded-full shadow-lg border-4 border-accent bg-[rgba(10,5,59,1)] text-accent"
                             style={{
                                 boxShadow: "0 0 15px var(--accent), 0 0 30px var(--accent)",
                             }}
@@ -104,7 +114,7 @@ export default function AboutSection() {
                                 boxShadow: "0 0 15px var(--extra), 0 0 30px var(--extra)",
                             }}
                         >
-                            <FaMobileAlt className='hover:motion-preset-oscillate motion-ease-spring-bounciest ' size={40} />
+                            <FaMobileAlt className='motion-preset-oscillate motion-duration-2000 motion-ease-spring-smooth' size={40} />
                         </div>
                         <div className="hidden md:block w-1 bg-extra h-24"></div>
                     </div>
@@ -127,7 +137,7 @@ export default function AboutSection() {
                                 boxShadow: "0 0 15px var(--accent), 0 0 30px var(--accent)",
                             }}
                         >
-                            <FaServer className='hover:motion-preset-blink motion-ease-spring-bounciest ' size={40} />
+                            <FaServer className='motion-preset-blink motion-duration-2000 motion-ease-spring-bounce ' size={40} />
                         </div>
                     </div>
                     {/* Content */}

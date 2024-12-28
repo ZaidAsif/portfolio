@@ -53,7 +53,7 @@ export default function HomeSection() {
 
         <div className="flex justify-center w-3/4 md:w-2/4 lg:w-1/3 mt-8">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/nextjs-with-firebase-935b3.appspot.com/o/images%2Fcoderboy.gif?alt=media&token=10e04cfe-2180-49b9-8700-8ea76f9fddc1"
+            src="coderboy.gif"
             alt="A person coding"
             className="rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
           />
