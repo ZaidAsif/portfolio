@@ -77,14 +77,14 @@ export default function ResumeSection() {
                             <li>CSS</li>
                             <li>Bootstrap</li>
                             <li>Tailwind</li>
-                            <li>Material UI</li>
+                            <li>MUI</li>
                             <li>Javascript</li>
                         </div>
 
                         <div>
                             <li>Typescript</li>
                             <li>Firebase</li>
-                            <li>React/Nest JS</li>
+                            <li>Next JS</li>
                             <li>React Native</li>
                             <li>Express JS</li>
                             <li>Mongo DB</li>
