@@ -98,7 +98,7 @@ export default function ResumeSection() {
                     <h2 style={{textShadow: '0 4px 10px rgba(255, 215, 0, 0.5)'}} className={`text-2xl md:text-3xl lg:text-4xl font-semibold text-accent ${montserrat.className}`}>Education</h2>
                     <ul className="list-disc flex flex-col gap-6 ">
                         <li>
-                            <h4 className={`text-lg text-[#c8cad0]`}>Cambridge O'Level (2013-2027)</h4>
+                            <h4 className={`text-lg text-[#c8cad0]`}>Cambridge O&apos;Level (2013-2027)</h4>
                             <p className={`text-md text-gray-400 ${quicksand.className}`}>Mama Baby Care Cambridge School</p>
                         </li>
 
