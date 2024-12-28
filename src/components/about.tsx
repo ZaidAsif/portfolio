@@ -24,7 +24,7 @@ export default function AboutSection() {
         <section id="about" className="group flex-col mt-10 w-full h-full flex gap-12 px-12 py-10 md:px-24 md:py-16">
             <div className={`flex flex-col justify-around items-center gap-8`}>
             <div className="text-center mb-12">
-                <h2 className="text-2xl font-semibold md:text-4xl lg:text-4xl ${poppins.className} text-[#00ffcc]" style={{textShadow: '0 4px 10px rgb(58, 154, 209)'}}>
+                <h2 className={`text-2xl font-semibold md:text-4xl lg:text-4xl ${poppins.className} text-[#00ffcc]`} style={{textShadow: '0 4px 10px rgb(58, 154, 209)'}}>
                     About me.
                 </h2>
                 <div className="mt-2 flex items-center justify-center gap-2">
@@ -74,7 +74,7 @@ export default function AboutSection() {
             <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[rgb(111, 99, 223)] via-[rgba(54, 52, 52, 0.9)] to-[rgb(44, 37, 116)]"></div>
 
             <h3
-                className="text-2xl md:text-4xl lg:text-4xl font-bold text-center mb-12 text-accent"
+                className="text-2xl md:text-3xl lg:text-3xl font-bold text-center mb-12 text-accent"
                 style={{ textShadow: "0 0 10px var(--accent), 0 0 20px var(--accent)" }}
             >
                 My Journey
@@ -96,11 +96,11 @@ export default function AboutSection() {
                     </div>
                     {/* Content */}
                     <div className="bg-primary shadow-md p-6 rounded-lg flex-1 text-center md:text-right border border-[rgba(255,215,0,0.5)]">
-                        <h4 className="text-xl font-semibold text-[#c8d6f6] mb-3">Front-End Foundations</h4>
-                        <p className={`text-md md:text-lg ${merriweather.className}`}>
-                            Starting to learn <strong>Front-End Development at SMIT</strong>, I mastered HTML, CSS, and JavaScript. I transitioned to
-                            <strong> React</strong> and <strong>Next.js</strong> in which i got a firm hold and helped me to build dynamic web applications, leveraging libraries like
-                            <strong> Bootstrap</strong> and <strong>Tailwind CSS</strong> for sleek designs.
+                        <h4 className="text-xl md:text-2xl lg:text-3xl font-semibold text-[#c8d6f6] mb-3">Front-End Foundations</h4>
+                        <p className={`text-md md:text-lg lg:text-xl ${merriweather.className}`}>
+                            Started learning <strong>Front-End Development at SMIT</strong>, mastering HTML, CSS, and JavaScript. I then transitioned to
+                            <strong> React</strong> and <strong>Next.js</strong> becoming proficient in building dynamic apps with <strong>Firebase</strong>, using libraries like
+                            <strong> Bootstrap</strong> and <strong>Tailwind</strong> for sleek designs.
                         </p>
                     </div>
                 </div>
@@ -120,8 +120,8 @@ export default function AboutSection() {
                     </div>
                     {/* Content */}
                     <div className="bg-primary shadow-md p-6 rounded-lg flex-1 text-center md:text-left border border-[rgba(82,238,223,0.5)]">
-                        <h4 className="text-xl font-semibold text-[#c8d6f6] mb-3">Exploring Mobile Development</h4>
-                        <p className={`text-md md:text-lg ${merriweather.className}`}>
+                        <h4 className="text-xl md:text-2xl lg:text-3xl  font-semibold text-[#c8d6f6] mb-3">Exploring Mobile Development</h4>
+                        <p className={`text-md md:text-lg lg:text-xl ${merriweather.className}`}>
                             Then I learned <strong>React Native</strong> expanding my skills into mobile development. This journey enhanced my
                             coding capabilities and allowed me to experiment with app responsiveness and user experience.
                         </p>
@@ -142,9 +142,9 @@ export default function AboutSection() {
                     </div>
                     {/* Content */}
                     <div className="bg-primary shadow-md p-6 rounded-lg flex-1 text-center md:text-right border border-[rgba(255,215,0,0.5)]">
-                        <h4 className="text-xl font-semibold text-[#c8d6f6] mb-3">Full-Stack Development</h4>
-                        <p className={`text-md md:text-lg ${merriweather.className}`}>
-                            Currently, I&apos;m learning Backend <strong>Express.js</strong> and <strong>MongoDB</strong>, mastering full-stack development with the
+                        <h4 className="text-xl md:text-2xl lg:text-3xl  font-semibold text-[#c8d6f6] mb-3">Full-Stack Development</h4>
+                        <p className={`text-md md:text-lg lg:text-xl ${merriweather.className}`}>
+                            Currently, I&apos;m learning Back-end Development to master Web Development with
                             <strong> MERN stack</strong>. My focus is building scalable, integrated web applications that solve real-world problems.
                         </p>
                     </div>

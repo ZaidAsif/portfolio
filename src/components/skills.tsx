@@ -1,9 +1,19 @@
 'use client';
 
+import { Inter, Lora } from "next/font/google";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiFirebase, SiTypescript, SiExpress, SiMongodb  } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
+const lora = Lora({
+    subsets: ['latin'],
+    weight: ['400', '700'],
+});
+
+const inter = Inter({
+    subsets: ['latin'],
+    weight: ['400', '600', '700'],
+});
 
 export default function SkillsSection() {
     const skills = [
@@ -43,8 +53,8 @@ export default function SkillsSection() {
                         <div className="flex items-center gap-4">
                             {skill.icon}
                             <div className="flex flex-col">
-                                <h3 className="text-lg md:text-xl font-semibold text-[#c8cad0] ">{skill.name}</h3>
-                                <span className="text-sm md:text-lg text-gray-400">{skill.level}% Proficiency</span>
+                                <h3 className={`text-lg md:text-xl font-semibold text-[#c8cad0] ${lora.className}`}>{skill.name}</h3>
+                                <span className={`text-sm md:text-lg text-gray-400 ${inter.className}`}>{skill.level}% Proficiency</span>
                             </div>
                         </div>
 
