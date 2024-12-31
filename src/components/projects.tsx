@@ -84,7 +84,7 @@ export default function ProjectsSection() {
                                     />
                                 </a>
 
-                                <a href={liveUrl}>
+                                <a href={liveUrl} target="_blank">
                                     <TbWorld style={{
                                         filter: 'drop-shadow(0 0 12px rgb(219, 207, 28))',
                                     }}
