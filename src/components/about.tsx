@@ -33,16 +33,6 @@ export default function AboutSection() {
                     <span className="h-1 bg-gray-600 w-16 md:w-20 lg:w-20"></span>
                 </div>
             </div>
-                {/* <h4
-                    className={`group text-left text-xl font-semibold md:text-2xl ${poppins.className}`}
-                    style={{
-                        color: '#00ffcc', textShadow: '0 4px 10px rgb(58, 154, 209)'
-                    }}
-                >
-                    About Me.
-                    <span className='ml-6 md:ml-0 border-[1px] block box-content relative bottom-[17px] w-[56.7%] left-[38%] border-[#303c55] md:w-[20rem] md:w-3/5'></span>
-
-                </h4> */}
                 <div className={`md:flex md:justify-around`}>
                     <div className={`gap-4 flex flex-col md:justify-evenly`}>
                         <h2 className={`text-2xl md:text-5xl text-center font-mono`}> <span className='text-red-300'>Web</span> & <span className='text-orange-300'>App</span> Developer</h2>

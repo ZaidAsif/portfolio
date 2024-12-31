@@ -22,16 +22,16 @@ const poppins = Poppins({
 
 export default function SkillsSection() {
     const skills = [
-        { name: "HTML", level: 90, icon: <FaHtml5 className="text-orange-600 text-4xl" /> },
-        { name: "CSS", level: 80, icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
-        { name: "JavaScript", level: 80, icon: <FaJs className="text-yellow-500 text-4xl" /> },
-        { name: "TypeScript", level: 85, icon: <SiTypescript className="text-blue-700 text-4xl" /> },
-        { name: "React.js", level: 70, icon: <FaReact className="text-blue-400 text-4xl" /> },
         { name: "Next.js", level: 85, icon: <SiNextdotjs className="text-gray-500 text-4xl" /> },
+        { name: "TypeScript", level: 85, icon: <SiTypescript className="text-blue-700 text-4xl" /> },
         { name: "Tailwind CSS", level: 85, icon: <SiTailwindcss className="text-teal-400 text-4xl" /> },
+        { name: "Firebase", level: 80, icon: <SiFirebase className="text-orange-500 text-4xl" /> },
+        { name: "JavaScript", level: 80, icon: <FaJs className="text-yellow-500 text-4xl" /> },
+        { name: "CSS", level: 80, icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
         { name: "Bootstrap", level: 75, icon: <FaBootstrap className="text-[#7e00ed] text-4xl" /> },
         { name: "Material UI", level: 70, icon: <SiMui className="text-blue-600 text-4xl" /> },
-        { name: "Firebase", level: 75, icon: <SiFirebase className="text-orange-500 text-4xl" /> },
+        { name: "React.js", level: 70, icon: <FaReact className="text-blue-400 text-4xl" /> },
+        { name: "HTML", level: 90, icon: <FaHtml5 className="text-orange-600 text-4xl" /> },
         { name: "React Native", level: 70, icon: <TbBrandReactNative className="text-[#00d6f5] text-4xl" /> },
         { name: "Express JS", level: 65, icon: <SiExpress  className="text-green-400 text-4xl" /> },
         { name: "Mongo db", level: 70, icon: <SiMongodb  className="text-[#00a749] text-4xl" /> },
