@@ -1,4 +1,6 @@
 import AboutSection from "@/components/about";
+import ContactSection from "@/components/contact";
+import Footer from "@/components/footer";
 import HomeSection from "@/components/home";
 import ProjectsSection from "@/components/projects";
 import ResumeSection from "@/components/resume";
@@ -12,6 +14,8 @@ export default function Home() {
       <SkillsSection />
       <ResumeSection />
       <ProjectsSection />
+      <ContactSection />
+      <Footer />
     </>
   );
 }

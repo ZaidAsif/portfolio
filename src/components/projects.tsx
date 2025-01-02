@@ -63,7 +63,7 @@ export default function ProjectsSection() {
 
                             <div className={`flex md:gap-4 lg:gap-6 xl:gap-8`}>
                                 {technologies.map((technology) => (
-                                    <div className={`rounded-3xl h-8 w-20 border-gray-500 border-2 border-solid flex justify-center items-center text-sm`} key={technology}>
+                                    <div className={`rounded-3xl h-8 w-20 border-gray-300 border-2 border-solid flex justify-center items-center text-sm text-gray-300`} key={technology}>
                                         {technology}
                                     </div>
                                 ))}

@@ -61,7 +61,7 @@ export default function ResumeSection() {
                         <div className={`flex flex-col`}>
                             <h4 className={`font-semibold text-lg md:text-xl lg:text-xl text-black text-center ${montserrat.className}`}>Front-End Development: Internship</h4>
                             <p className="italic text-gray-400 text-md md:text-lg lg:text-lg text-center">Markh Developers | Nov 2024 - Dec 2024</p>
-                            <ul className={`list-disc pl-5 text-gray-300 mt-2 text-md md:text-lg lg:text-lg text-black ${quicksand.className}`}>
+                            <ul className={`list-disc pl-5 text-black-700 mt-2 text-md md:text-lg lg:text-lg text-black ${quicksand.className}`}>
                                 <li>Developed responsive projects with Vanilla Javascript and Next.js.</li>
                             </ul>
                         </div>
@@ -114,9 +114,9 @@ export default function ResumeSection() {
                     <a
                         download
                         href=""
-                        className={`p-4 text-[#00ffdf] hover:bg-[#d0fff91f] active:bg-[#d0fff92e] text-md md:text-lg lg:text-lg`}
+                        className={`p-4 text-[#00ffdf] hover:bg-[#d0fff969] active:bg-[#d0fff94a] text-md md:text-lg lg:text-lg rounded-sm`}
                         style={{
-                            border: '1px solid #00ffdf', filter: 'drop-shadow(0 0 12px #00ffdf)',
+                            border: '1px solid #00ffdf',
                         }}
                     >
                         Download Full Resume

@@ -31,8 +31,8 @@ export default function HomeSection() {
             Hi, Myself
           </h1>
           <h2
-            className={`text-6xl md:text-8xl font-extrabold ${playfair.className}`}
-            style={{ color: '#ffd700', textShadow: '0 4px 10px rgba(255, 215, 0, 0.5)' }}
+            className={`text-6xl md:text-8xl font-extrabold text-accent ${playfair.className}`}
+            style={{  textShadow: '0 4px 10px rgba(255, 215, 0, 0.5)' }}
           >
             Zaid Asif
           </h2>
